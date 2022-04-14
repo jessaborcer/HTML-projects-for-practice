@@ -13,7 +13,7 @@ design a more mobile feel. </p>
 ![image](https://user-images.githubusercontent.com/74045387/163315827-ff31349b-7fcd-425b-b569-452f5a3af061.png)
 <p> Bootstrap Icons by font awesome was used to provide the ratings under the users names</p>
 ![image](https://user-images.githubusercontent.com/74045387/163315880-ca702143-e3b5-4bc3-adb2-51de50791e2e.png)
-<p> The linear gradient attribute was used to give the background image a gradient effect. 
+<p> The linear gradient attribute was used to give the background image a gradient effect. </p>
 ![image](https://user-images.githubusercontent.com/74045387/163315975-60e58ab7-bea7-41d1-a9f8-b6dcb31cf057.png)
 ![image](https://user-images.githubusercontent.com/74045387/163316029-f29b4cf8-7965-49e1-af65-d2f5546af565.png)
 
