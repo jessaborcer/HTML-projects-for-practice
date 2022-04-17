@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-image: linear-gradient(rgb(0, 0, 255, 0.7), rgb(255, 192, 203, 0.7)), url(https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8963973.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+h1{
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+    padding: 30px;
+    color: white;
+    font-size: 62px;
+}
+
+
+
+.recipes{
+    width: 80%;
+   /* display: flex;*/
+    margin: auto;
+    text-align: center;
+}
+
+/*.row{
+    display: flex;
+    flex-wrap: none;
+    margin: 0% 9% 0% 9%;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: center;
+}*/
+.row{
+    display: flex;
+    flex-wrap: none;
+    margin: 0% 10% 0% 2%;
+}
+
+
+.recipe-col{
+    flex-basis: 32%;
+    text-decoration: none;
+    margin-bottom: 5%;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+/*.recipe-col img {
+    height: 260px;
+    width: 300px;
+    border-radius: 10px;
+    margin-right: 25px;
+}*/
+
+.recipe-col img {
+    height: 260px;
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    transition: 0.5s;
+}
+
+.recipe-col img:hover{
+    box-shadow: 0px 0px 20px rgb(228, 228, 228);
+    height:310px;
+    width: 350px;
+}
+
+.recipe-col .title{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 5px;
+
+}
+
+/*eggs*/
+.eggs{
+    width: 80%;
+    margin: auto;
+    text-align: left;
+
+}
+
+.eggs img{
+    margin-top: 40px;
+    width: 40%;
+    border-radius: 20px;
+     float: right;
+    /*margin-right: auto;
+    margin-right: auto;
+    position: absolute;*/
+
+}
+
+
+h2{
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+ .eggshome, p, ul, ol, li, h4, h3{
+    color: black;
+
+}
+
+
+/*Ricotta*/
+.ricotta{
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    
+}
+
+.ricotta img{
+    margin-top: 15px;
+    width: 40%;
+    border-radius: 20px;
+    float: right;
+    margin-left: 15px;
+    /*margin-right: auto;
+    margin-right: auto;
+    position: absolute;*/
+
+}
+
+h2{
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+ .ricottahome, p, ul, ol, li, h4, h3{
+    color: black;
+
+}
+
+/*strawberry*/
+.strawberrycream{
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    
+}
+
+.strawberrycream img{
+    margin-top: 15px;
+    width: 40%;
+    border-radius: 20px;
+    float: right;
+    margin-left: 15px;
+    /*margin-right: auto;
+    margin-right: auto;
+    position: absolute;*/
+
+}
+
+h2{
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.strawberrycreamhome, p, ul, ol, li, h4, h3{
+    color: black;
+    padding: 5px;
+
+}
+.desc{
+    color: white;
+    font-weight: 30px;
+    text-align: left;
+    margin: 0% 10% 0% 6%;
+}
