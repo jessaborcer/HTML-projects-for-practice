@@ -1,0 +1,115 @@
+body{
+    background-image: url(https://www.teahub.io/photos/full/5-54090_cup-of-coffee-and-roasted-beans-on-wood.jpg);
+    background-size: cover;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0px;
+    padding: 15px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.established{
+    font-style: italic;
+    margin-top: -25px;
+    font-size: 14px;
+}
+
+h1, h2, p{
+    text-align: center;
+}
+
+.menu{
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+    font-weight: bold;
+    background-image: url(img/coffeepattern3.webp);
+    background-size: 80%;
+    transition: all ease 0.2s;
+    border: 5px solid hsl(16, 100%, 30%);
+}
+
+/* ==============animated background==================*/
+.menu:hover{
+    animation: loading-button-animation 10s linear infinite;
+}
+
+@keyframes loading-button-animation{
+    from{
+        background-position: 0 0;
+    }
+    to{
+        background-position: 0 40px;
+    }
+}
+/*===============animated bg end ====================*/
+
+hr{
+    height: 1px;
+    width: 350px;
+    background-color: brown;
+    border-color: brown;
+    border-radius: 100%;
+}
+
+.bottom-line{
+    margin-top: 25px;
+}
+
+h1, h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.item p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.flavor, .dessert{
+    text-align: left;
+    width: 74%;
+}
+
+.price{
+    text-align: right;
+    width: 24%;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+    width: 50px;
+
+}
+
+footer{
+    font-size: 14px;
+}
+
+.address{
+    margin-bottom: 5px;
+}
+a{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color:brown;
+}
+a:active{
+    color: brown;
+}
